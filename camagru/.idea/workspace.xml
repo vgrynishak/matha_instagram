@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9bc2390-b67a-443f-a274-91e85270497a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../D03.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/camagru.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db_params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/ActivityControlers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/SiteControlers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/UsersControlers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Coment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Like.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stickers/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/albom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/photos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/img/avatars/nopic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/albom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/albom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../camagru4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../camagru_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ Browse.webloc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/main.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="144" column="68" selection-start-line="144" selection-start-column="68" selection-end-line="144" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/SiteControlers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/css/albom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/css/news.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/UsersControlers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2269">
+              <caret line="287" column="57" selection-start-line="287" selection-start-column="57" selection-end-line="287" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/js/photos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/user/albom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="72" column="10" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="72" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/site/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cont</find>
+      <find>men</find>
+      <find>po</find>
+      <find>form-check</find>
+      <find>form-che</find>
+      <find>last-</find>
+      <find>alert</find>
+      <find>last</find>
+      <find>comen</find>
+      <find>/coment</find>
+      <find>passwd</find>
+      <find>set</find>
+      <find>show_c</find>
+      <find>colo</find>
+      <find>AC</find>
+      <find>wind</find>
+      <find>notif</find>
+      <find>fa-co</find>
+      <find>fa-com</find>
+      <find>albo</find>
+      <find>mai</find>
+      <find>delete</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/views/user/news.php" />
+        <option value="$PROJECT_DIR$/config/table.sql" />
+        <option value="$PROJECT_DIR$/components/Db.php" />
+        <option value="$PROJECT_DIR$/models/coment.php" />
+        <option value="$PROJECT_DIR$/models/Coment.php" />
+        <option value="$PROJECT_DIR$/models/Image.php" />
+        <option value="$PROJECT_DIR$/template/js/footer.js" />
+        <option value="$PROJECT_DIR$/template/js/search.js" />
+        <option value="$PROJECT_DIR$/views/user/user.php" />
+        <option value="$PROJECT_DIR$/template/js/main.js" />
+        <option value="$PROJECT_DIR$/template/js/header.js" />
+        <option value="$PROJECT_DIR$/config/fb.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/authfb.php" />
+        <option value="$PROJECT_DIR$/models/User.php" />
+        <option value="$PROJECT_DIR$/config/routes.php" />
+        <option value="$PROJECT_DIR$/views/layouts/error.php" />
+        <option value="$PROJECT_DIR$/controllers/UsersControlers.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteControlers.php" />
+        <option value="$PROJECT_DIR$/components/Router.php" />
+        <option value="$PROJECT_DIR$/config/setup.php" />
+        <option value="$PROJECT_DIR$/controllers/ActivityControlers.php" />
+        <option value="$PROJECT_DIR$/template/js/albom.js" />
+        <option value="$PROJECT_DIR$/template/css/footer.css" />
+        <option value="$PROJECT_DIR$/template/css/header.css" />
+        <option value="$PROJECT_DIR$/template/css/main.css" />
+        <option value="$PROJECT_DIR$/template/css/photos.css" />
+        <option value="$PROJECT_DIR$/template/css/user.css" />
+        <option value="$PROJECT_DIR$/views/user/photos.php" />
+        <option value="$PROJECT_DIR$/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/template/css/news.css" />
+        <option value="$PROJECT_DIR$/template/css/albom.css" />
+        <option value="$PROJECT_DIR$/views/user/albom.php" />
+        <option value="$PROJECT_DIR$/views/site/main.php" />
+        <option value="$PROJECT_DIR$/template/js/photos.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="254" />
+    <option name="y" value="234" />
+    <option name="width" value="1943" />
+    <option name="height" value="949" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camagru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camagru" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9bc2390-b67a-443f-a274-91e85270497a" name="Default Changelist" comment="" />
+      <created>1550138395466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550138395466</updated>
+      <workItem from="1550138402142" duration="10644000" />
+      <workItem from="1550156180372" duration="3930000" />
+      <workItem from="1550225587001" duration="1302000" />
+      <workItem from="1550230123223" duration="17914000" />
+      <workItem from="1550250853168" duration="1166000" />
+      <workItem from="1550252466635" duration="10066000" />
+      <workItem from="1550305997293" duration="1490000" />
+      <workItem from="1550308215984" duration="21310000" />
+      <workItem from="1550393275485" duration="4987000" />
+      <workItem from="1550399268612" duration="18707000" />
+      <workItem from="1550477833930" duration="9655000" />
+      <workItem from="1550498391153" duration="3752000" />
+      <workItem from="1550508015483" duration="12515000" />
+      <workItem from="1550568595645" duration="7039000" />
+      <workItem from="1550582593078" duration="14877000" />
+      <workItem from="1550661113624" duration="3240000" />
+      <workItem from="1550675719249" duration="9677000" />
+      <workItem from="1550734489253" duration="6958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="254" y="234" width="1943" height="949" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14886902" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15402567" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23114187" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/template/js/footer.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/template/js/header.js</url>
+          <line>107</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/template/js/main.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/template/js/main.js</url>
+          <line>94</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Coment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="77" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#clear_news#0" />
+            <element signature="n#!!block;n#go_to_profile#0" />
+            <element signature="n#!!block;n#try_to_show#0" />
+            <element signature="n#!!block;n#new_color#0" />
+            <element signature="n#!!block;n#add_color_two#0" />
+            <element signature="n#!!block;n#add_listener_my_like#0" />
+            <element signature="n#!!block;n#add_listener_my_coment#0" />
+            <element signature="n#!!block;n#add_to_db#0" />
+            <element signature="n#!!block;n#activates_btn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authfb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/fb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+          <folding>
+            <element signature="n#!!block;n#coder#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ActivityControlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="189" column="27" lean-forward="true" selection-start-line="188" selection-start-column="13" selection-end-line="189" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/albom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="63" column="53" lean-forward="true" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!block;n#clear#0" />
+            <element signature="n#!!block;n#show_coments#0" />
+            <element signature="n#!!block;n#add_to_db#0" />
+            <element signature="n#!!block;n#new_color#0" />
+            <element signature="n#!!block;n#scrol_top#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="87" selection-start-line="87" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/photos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/photos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="144" column="68" selection-start-line="144" selection-start-column="68" selection-end-line="144" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/news.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/albom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user/albom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="72" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SiteControlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersControlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2269">
+          <caret line="287" column="57" selection-start-line="287" selection-start-column="57" selection-end-line="287" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/photos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/site/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

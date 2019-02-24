@@ -1,0 +1,116 @@
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0 , 0, 0.8);
+}
+
+
+.container-fluid {
+	font-size: 150%;
+	/*background-color: rgba(255, 155, 27, 0.52);*/
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #ffffff;
+	color: #222222;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.content, .header, .footer {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+}
+
+.content p {
+	margin: 10px 0;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+body,html {
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	padding: 0;
+	flex-grow: 1;
+	/*display: flex;*/
+	flex-direction: row-reverse;
+	background-image: url(http://ramki-vsem.ru/fony/fioletovyj-fon26.jpg);
+	background-size: cover;
+	/*align-items: stretch;*/
+	/*background-color: green ;*/
+}
+
+.navbar{
+	margin:0;
+}
+
+.page-footer {
+	height: 1.5rem;
+	margin: 0;
+}
+
+.collapse:not(.show){
+	display: block;
+}
+
+
+.bg-light {
+	background-color: rgb(106, 144, 214)!important;
+}
+
+
+.navbar-light:hover {
+	color: #ffa319;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+		background-color: #ffa319;
+	color: rgb(255, 235, 250);
+
+}
+
+/*#search_nav:hover{*/
+	/*color: red;*/
+/*}*/
+
+.form-group label {
+	all:unset;
+}
+
+.form-group label:hover {
+	all:unset;
+}
+
+.nice_alert {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0 , 0, 0.8);
+}
+
+.alert-success {
+	margin: 33% auto;
+	width: 80%;
+	text-align: center;
+}

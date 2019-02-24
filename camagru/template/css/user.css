@@ -1,0 +1,122 @@
+
+.name{
+    padding: 1rem;
+    text-align: center;
+    color: #00ffd0a3;
+}
+
+.photo {
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+
+}
+
+.photo img {
+    transition: all 1s ease;
+}
+
+.photo img:hover {
+    background-color: #1a3412;
+    transition: all 1s ease;
+}
+
+.aside-user{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.some-btn {
+    margin-top: 1%;
+}
+
+.some-btn a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #5f2b9f;
+    background-color:#2f82ff4d;
+    /*font-size: 1.5vw;*/
+}
+
+
+.some-btn div {
+    transition: 0.5s;
+}
+
+
+
+#search input[type="button"]{
+    width: 20%;
+}
+
+
+.btn-photos {
+    margin-top: 1%;
+    transition: 0.5s;
+}
+
+.btn-photos a:hover {
+    /*font-size: 130%;*/
+    transition: 0.5s;
+}
+
+.setings {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0 , 0, 0.8);
+}
+
+.ful-setings {
+    display: block;
+    width: 80%;
+    height: 75%;
+    border-radius: 10%;
+    background-color: rgb(24, 33, 52, 0.6);
+    margin: 10% auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #3afda3;
+    padding-bottom: 20px;
+    /*overflow: hidden;*/
+}
+
+.input-group {
+    width: 80%;
+    margin: auto;
+}
+
+.input-group-text {
+    background: #ffa319;
+    color: #2d00e0b8;
+}
+
+
+.logoss img {
+    height: 100%;
+    width: auto;
+    margin-top: -10%;
+}
+
+.l-set {
+    all: unset;
+    background-color: white;
+    color: rgba(105,117,126, 1);
+}
+
+.l-set:hover {
+    all: unset;
+
+}
+.l-n {
+    all:unset;
+}
+
+.l-n:hover {
+    all: unset;
+}

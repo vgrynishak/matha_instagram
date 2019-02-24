@@ -1,0 +1,181 @@
+
+#btn-photo {
+    display: none;
+    margin-top: 1%;
+}
+
+
+
+.container-photo {
+    background-size: cover;
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+
+#slider {
+    text-align: center;
+}
+
+#slider a{
+    color: yellowgreen;
+}
+#polosa  {
+    display: inline-flex;
+    width: 500px;
+    transition: all ease 1s;
+
+}
+
+#polosa .form-check{
+    padding-left: 0px;
+    transition: all ease 1s;
+    /*float: left;*/
+}
+
+
+
+.form-check {
+    transition: all ease 1s;
+    margin: 0;
+    display: block;
+    width: 25%;
+    height: auto;
+}
+
+
+
+.form-check img{
+    width: 100%;
+    height: 120px;
+}
+
+
+.prev, .next {
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.9s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(255, 155, 27, 0.8);
+}
+
+.cont {
+
+    display: none;
+    /*background-image: url("http://99px.ru/sstorage/53/2011/12/tmb_29649_8889.jpg");*/
+    background-size: cover;
+    width: 100%;
+}
+
+#canvas {
+    display: none;
+}
+
+#camera-result {
+    /*top: 500px;*/
+    /*position: absolute;*/
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    /*border: 1px solid black;*/
+}
+
+.main {
+    height: 90vh;
+    /*background-color: #00039f;*/
+    position: relative;
+}
+
+.aside {
+    display: none;
+    right: 0;
+
+    top: 5%;
+    width: 10%;
+    height: 400px;
+    /*float: right;*/
+}
+
+
+#lololo {
+    display: none;
+}
+
+.hide {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+label {
+    font-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #ffa319;
+    padding: 15px 30px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.6s;
+}
+
+label:hover {
+    background-color: #00039f;
+}
+
+.file_upload {
+    text-align: center;
+    width: 100%;
+    padding-top: 21%;
+    background-size: cover;
+}
+
+.menu {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.video-cont {
+    width: 100%;
+}
+
+.menu_two {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.all_worplaces {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-save {
+    margin-top: 1%;
+}
+
+#save {
+    background-color: ;
+}
+
+.success-nice {
+    color: #00ff00;
+    margin-bottom: 5%;
+}
