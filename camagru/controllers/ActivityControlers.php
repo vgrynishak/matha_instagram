@@ -151,43 +151,26 @@ class ActivityControlers {
     }
 
     public function ActionNews(){
-//        if (!isset($page))
-//            $page = 1;
-//        $_SESSION["page"] = $page;
-        $user_id = User::get_id($_SESSION["user"]);
-        $notif = User::get_notification_by_id($user_id["id"])["notif"];
-        $all_photo = Image::all_photos();
-        $max = ceil($all_photo['num']/6);
-        $avatar = User::get_photo($_SESSION["user"]);
-//        if ($all_photo['num']) {
-//            if ($page * 6 <= $all_photo['num']) {
-//                $start = $all_photo['num'] - $page * 6;
-//                $finish = 6;
-//            }
-//            else {
-//                $start = 0 ;
-//                $finish =   ($all_photo['num'] > 6)?$all_photo['num'] - ($page-1)*6 : $all_photo['num'];
-//            }
-//            $all_p = Image::photos_n($start, $finish);
-//            $avatar = array();
-//            $name = array();
-//            foreach ($all_p as $value){
-//                $avatar[] = User::get_photo_by_id($value['user_id'])['photo'];
-//                $name[] = USER::get_login_by_id($value['user_id'])['login'];
-//            }
-//        }
-        require_once ROOT."/views/site/main.php";
+        if (isset($_SESSION["user"])){   
+            $user_id = User::get_id($_SESSION["user"]);
+            $notif = User::get_notification_by_id($user_id["id"])["notif"];
+            $all_photo = Image::all_photos();
+            $max = ceil($all_photo['num']/6);
+            $avatar = User::get_photo($_SESSION["user"]);
+            require_once ROOT."/views/site/main.php";
+        }
+        else
+            require_once ROOT."/views/layouts/error.php";
     }
 
     public function ActionDelete(){
         if ( isset($_POST["path"]))
         {
             $result = preg_replace("~http://".$_SERVER["HTTP_HOST"]."/(images/\d+)~", '$1', $_POST['path']);
+            $image_id = (Image::get_id_by_path($result))["image_id"];
+            echo $image_id;
             $avatar = User::get_photo($_SESSION["user"]);
             $files = glob('images/*');
-//            echo "here";
-//            echo $avatar["photo"]."<br>";
-//            echo $result;
             if ($avatar["photo"] == "/".$result){
                 User::sava_as("/template/img/avatars/nopic.png", $_SESSION["user"]);
             }
@@ -197,6 +180,8 @@ class ActivityControlers {
                     break;
                 }
             }
+            Coment::delete_coment_by_photo($image_id);
+            Like::delete_likes_by_image($image_id);
             Image::delete_photos($result);
         }
         else

@@ -44,4 +44,13 @@ class Coment{
         $wait->execute(array($coment_id));
         return $wait;
     }
+
+    public static function delete_coment_by_photo( $image_id){
+        $db = Db::getConnection();
+
+        $sql = "DELETE FROM  coments WHERE image_id = ?";
+        $wait = $db->prepare($sql);
+        $wait->execute(array($image_id));
+        return $wait;
+    }
 }

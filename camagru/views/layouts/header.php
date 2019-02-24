@@ -161,6 +161,7 @@
                     </ul>
                     <ul class="navbar-nav ml-auto " id="myTopnav">
                             <form id="search" class="form-inline my-2 my-lg-0">
+                                <!--                                перезагруживаєт сторінку! Надо пофиксить!-->
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn-outline-success my-2 my-sm-0" type="button">Пошук</button>
                             </form>

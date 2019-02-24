@@ -8,7 +8,20 @@ navigator.mediaDevices.getUserMedia({video:true,audio:false}).then(function(stre
         // btn_photo.style.display = "block";
 }).catch(function(er){alert(er.message);});
 
-
+// function alert_er(msg){
+//     var elem = document.createElement('div');
+//     elem.className = "alert alert-danger";
+//     elem.role = "alert";
+//     elem.style.color = "red";
+//     elem.innerText = msg;
+//     file_upload.style.display = "block";
+//     workplace.style.display = "none";
+//     container.style.display = "none";
+//     file_upload.insertBefore(elem, file_upload.firstChild);
+//     setTimeout(function () {
+//         file_upload.firstChild.remove();
+//     }, 4000)
+// }
 
 
 var video = document.getElementById("video");

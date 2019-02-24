@@ -44,4 +44,13 @@ class Like{
         $result = $wait->fetchAll(PDO::FETCH_ASSOC);
         return $result;
     }
+
+    public static function delete_likes_by_image( $image_id){
+        $db = Db::getConnection();
+
+        $sql = 'DELETE  FROM likes WHERE  image_id = ?';
+        $wait = $db->prepare($sql);
+        $wait->execute(array($image_id));
+        return ($wait);
+    }
 }

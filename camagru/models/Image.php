@@ -75,4 +75,12 @@ class Image{
         $result = $wait->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
+
+    public static function get_id_by_path($path){
+        $db = Db::getConnection();
+        $wait = $db->prepare('SELECT image_id FROM image WHERE path = ?');
+        $wait->execute(array($path));
+        $result = $wait->fetch(PDO::FETCH_ASSOC);
+        return $result;
+    }
 }

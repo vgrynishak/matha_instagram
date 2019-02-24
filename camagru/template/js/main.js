@@ -22,7 +22,10 @@ function clear() {
         }
     }
 }
-show_page();
+
+if (max_page != 0){
+    show_page();
+}
 function page_news(n) {
     console.log("here");
     if (n == -1 && pages > 1){

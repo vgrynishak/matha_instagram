@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+.news-img {
+    display: none;
+}
+
 .last {
     width: 100%;
     position: relative;
